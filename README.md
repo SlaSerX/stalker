@@ -1,4 +1,4 @@
-Stalker WM Portal road warrior installer for Debian, Ubuntu
+<b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
 
 This script will work on Debian, Ubuntu and probably other distros
 of the same families, although no support is offered for them. It isn't
@@ -12,11 +12,13 @@ Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
 
-<code>git clone https://github.com/SlaSerX/stalker
+<code>git clone https://github.com/SlaSerX/stalker</code>
 
-cd stalker/
+<code>cd stalker/</code>
 
-chmod +x install
+<code>chmod +x install</code>
 
-./install</code>
+<code>./install</code>
+
+<b>Script work only on Clean Debian/Ubuntu install servers</b>
 
