@@ -17,5 +17,3 @@ cd stalker/
 chmod +x install
 ./install
 
-Script work only on Clean install Debian/Ubuntu
-
