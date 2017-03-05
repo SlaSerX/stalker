@@ -1,0 +1,15 @@
+server {
+    listen       80;
+    server_name  localhost;
+
+    location / {
+        proxy_pass http://127.0.0.1:88/;
+        proxy_set_header Host $host:$server_port;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    location ~* \.(htm|html|jpeg|jpg|gif|png|css|js)$ {
+        root /var/www/html;
+        expires 30d;
+    }
+}
