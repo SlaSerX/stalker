@@ -12,9 +12,11 @@ Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
 
-<code>git clone https://github.com/SlaSerX/stalker</code>
-<code>
-cd stalker/</br>
-chmod +x install</br>
+<code>git clone https://github.com/SlaSerX/stalker
+
+cd stalker/
+
+chmod +x install
+
 ./install</code>
 
