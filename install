@@ -1,0 +1,85 @@
+#!/bin/bash
+
+# Stalker WM Portal road warrior installer for Debian, Ubuntu
+
+# This script will work on Debian, Ubuntu and probably other distros
+# of the same families, although no support is offered for them. It isn't
+# bulletproof but it will probably work if you simply want to setup a Stalker WM Portal on
+# your Debian/Ubuntu box. It has been designed to be as unobtrusive and
+# universal as possible.
+
+# This is a free shell script under GNU GPL version 3.0 or above
+# Copyright (C) 2017 LinuxHelps project.
+# Feedback/comment/suggestions : https://linuxhelps.net/
+# Author Ivan Bachvarov a.k.a SlaSerX
+
+# Color schema
+
+red='\033[01;31m'
+blue='\033[01;34m'
+green='\033[01;32m'
+norm='\033[00m'
+
+ver=v5.1.1
+pass="st@lk3r"
+source="http://linuxhelps.net/configs"
+
+# Download and Install the Latest Updates for the OS
+
+apt-get update > /dev/null
+sleep 1
+
+#Install Necessary services & packets
+sudo apt-get install -y -u apache2 nginx nginx-extras unzip memcached php5 php5-mysql php-pear nodejs upstart && sudo pear channel-discover pear.phing.info && sudo pear install -Z phing/phing 
+sleep 1
+pear channel-discover pear.phing.info
+pear install phing/phing
+sleep 1
+
+# Set the Server Timezone to CST
+echo "Europe/Sofia" > /etc/timezone
+dpkg-reconfigure -f noninteractive tzdata
+
+# Install MySQL Server in a Non-Interactive mode. Default root password will be "st@lk3r"
+echo "mysql-server-5.6 mysql-server/root_password password st@lk3r" | sudo debconf-set-selections
+echo "mysql-server-5.6 mysql-server/root_password_again password st@lk3r" | sudo debconf-set-selections
+
+apt-get install -y mysql-server-5.6 > /dev/null
+
+sed -i 's/127\.0\.0\.1/0\.0\.0\.0/g' /etc/mysql/my.cnf
+mysql -uroot -p$pass -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="root" AND `Host`="localhost"; DELETE FROM `user` WHERE `Host` != "%" AND `User`="root"; FLUSH PRIVILEGES;'
+service mysql restart
+
+cd /var/www/html
+wget https://github.com/azhurb/stalker_portal/archive/$ver.zip
+unzip $ver.zip
+mv stalker_portal* stalker_portal
+rm -rf *.zip
+
+mysql -uroot -p$pass -e "create database stalker_db"
+mysql -uroot -p$pass -e "GRANT ALL PRIVILEGES ON stalker_db.* TO stalker@localhost IDENTIFIED BY '1' WITH GRANT OPTION;"
+echo "max_allowed_packet = 32M" >> /etc/mysql/my.cnf
+echo "short_open_tag = On" >> /etc/php5/apache2/php.ini
+a2enmod rewrite
+apt-get purge libapache2-mod-php5filter > /dev/null
+
+cd /etc/apache2/sites-enabled/
+rm -rf *
+wget $source/000-default.conf
+cd /etc/apache2/
+rm -rf ports.conf
+wget $source/ports.conf
+cd /etc/nginx/sites-available/
+rm -rf default
+wget $source/default
+/etc/init.d/apache2 restart
+/etc/init.d/nginx restart
+/etc/init.d/apache2 restart
+/etc/init.d/nginx restart
+
+cd /var/www/html/stalker_portal/deploy
+sudo phing
+
+echo -e "\n${green}Necessary services & packets Installed\n\n${norm}\n"
+echo -e "\n${green}MySQL root password is $pass\n\n${norm}\n"
+echo -e "\n${green}Stalker portal install on http://`ifconfig eth0 2>/dev/null|awk '/inet addr:/ {print $2}'|sed 's/addr://'`/stalker_portal\n\n${norm}\n"
