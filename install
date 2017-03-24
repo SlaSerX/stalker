@@ -22,7 +22,7 @@ norm='\033[00m'
 
 ver=v5.1.1
 pass="st@lk3r"
-source="http://ispforum.eu/configs"
+source="http://linuxhelps.net/configs"
 
 # Download and Install the Latest Updates for the OS
 
