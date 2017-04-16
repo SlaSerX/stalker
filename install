@@ -41,10 +41,10 @@ echo "Europe/Sofia" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
 
 # Install MySQL Server in a Non-Interactive mode. Default root password will be "st@lk3r"
-echo "mysql-server-5.6 mysql-server/root_password password st@lk3r" | sudo debconf-set-selections
-echo "mysql-server-5.6 mysql-server/root_password_again password st@lk3r" | sudo debconf-set-selections
+echo "mysql-server mysql-server/root_password password $pass" | sudo debconf-set-selections
+echo "mysql-server mysql-server/root_password_again password $pass" | sudo debconf-set-selections
 
-apt-get install -y mysql-server-5.6 > /dev/null
+apt-get install -y mysql-server > /dev/null
 
 sed -i 's/127\.0\.0\.1/0\.0\.0\.0/g' /etc/mysql/my.cnf
 mysql -uroot -p$pass -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="root" AND `Host`="localhost"; DELETE FROM `user` WHERE `Host` != "%" AND `User`="root"; FLUSH PRIVILEGES;'
