@@ -1,3 +1,5 @@
+[![N|Solid](http://i68.tinypic.com/a1ohky.png)](https://linuxhelps.net)
+
 <b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
 
 This script will work on Debian, Ubuntu and probably other distros
@@ -12,13 +14,15 @@ Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
 
-<code>git clone https://github.com/SlaSerX/stalker</code>
+```sh
+git clone https://github.com/SlaSerX/stalker
 
-<code>cd stalker/</code>
+cd stalker/
 
-<code>chmod +x install</code>
+chmod +x install
 
-<code>./install</code>
+./install
+```
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
