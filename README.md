@@ -15,18 +15,14 @@ Author Ivan Bachvarov a.k.a SlaSerX
 
 
 ```sh
-$ git clone https://github.com/SlaSerX/stalker
+git clone https://github.com/SlaSerX/stalker
 
-$ cd stalker/
+cd stalker/
 
-$ chmod +x install
+chmod +x install
 
-$ ./install
+./install
 ```
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
+
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
