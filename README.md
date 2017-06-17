@@ -26,3 +26,5 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+<b>Online Support: Network: FreeNode Channel: #Infomir </b>
+
