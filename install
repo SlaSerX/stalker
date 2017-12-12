@@ -50,9 +50,9 @@ sed -i 's/127\.0\.0\.1/0\.0\.0\.0/g' /etc/mysql/my.cnf
 mysql -uroot -p$pass -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="root" AND `Host`="localhost"; DELETE FROM `user` WHERE `Host` != "%" AND `User`="root"; FLUSH PRIVILEGES;'
 service mysql restart
 
-cd /var/www/html
+cd /var/www/html/
 wget http://linuxhelps.net/files/ministra-5.3.0.zip
-unzip ./var/www/html/ministra-5.3.0.zip
+unzip ministra-5.3.0.zip
 mv infomirgroup-stalker_portal-2feec3a9f374 stalker_portal
 rm -rf *.zip
 
