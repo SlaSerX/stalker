@@ -31,3 +31,5 @@ Stalker auto install script v1.2r4
   * fix deploy
   * Last Version Stalker Portal Ministra 5.3.0
   * fix nginx configs
+
+[![Auto Install Ministra Stalker Portal](https://img.youtube.com/vi/MaKourhF9Vc/0.jpg)](https://www.youtube.com/watch?v=MaKourhF9Vc "Auto Install Ministra Stalker Portal")
