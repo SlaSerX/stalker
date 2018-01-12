@@ -26,8 +26,8 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
-<b>  Stalker auto install script v1.2r4
+Stalker auto install script v1.2r4
   
   * fix deploy
   * Last Version Stalker Portal Ministra 5.3.0
-  * fix nginx configs</b>
+  * fix nginx configs
