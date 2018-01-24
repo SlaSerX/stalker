@@ -49,12 +49,12 @@ else
  do
  case $choice in
  1)
- #Install Sublime Text 3*
+ #Install Ministra*
  echo "Installing Ministra"
  ./lab/ministra
 ;;
 2)
- #Install LAMP stack
+ #Install Stalker
  echo "Installing Stalker"
 ./lab/stalker
  ;;
