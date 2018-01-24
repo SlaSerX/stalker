@@ -1,0 +1,9 @@
+  The systems currently supported are:
+
+    Debian 7, 8 on i386 and amd64
+    Ubuntu 14.04 LTS 
+
+  If your OS/version/arch is not listed, installation will fail. More
+  details about the systems supported by the script can be found here:
+  https://linuxhelps.net
+  Email: root@linuxhelps.net
