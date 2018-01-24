@@ -26,10 +26,14 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
-Stalker auto install script v1.2r4
+Stalker auto install script v1.2 - RELEASE
   
+  * Add dialog menu for choice Ministra or Stalker version installing
+  * Checking OS Support
+  * 
   * fix deploy
   * Last Version Stalker Portal Ministra 5.3.0
   * fix nginx configs
+  
 
 [![Click to Watch](https://img.youtube.com/vi/MaKourhF9Vc/0.jpg)](https://www.youtube.com/watch?v=MaKourhF9Vc "Click to Watch")
