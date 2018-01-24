@@ -30,9 +30,10 @@ Stalker auto install script v1.2 - RELEASE
   
   * Add dialog menu for choice Ministra or Stalker version installing
   * Checking OS Support
-  * 
+  * fix bugs
   * fix deploy
   * Last Version Stalker Portal Ministra 5.3.0
+  * Last Version Stalker Portal 5.1.1
   * fix nginx configs
   
 
