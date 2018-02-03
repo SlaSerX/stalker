@@ -13,7 +13,7 @@ Copyright (C) 2017 LinuxHelps project.
 Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR) —You can make one-time donations via PayPal. I'll probably buy a coffe. :coffe:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR) —You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 
 ```sh
 git clone https://github.com/SlaSerX/stalker
