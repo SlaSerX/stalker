@@ -39,3 +39,5 @@ Stalker auto install script v1.2 - RELEASE
   
 
 [![Click to Watch](https://img.youtube.com/vi/MaKourhF9Vc/0.jpg)](https://www.youtube.com/watch?v=MaKourhF9Vc "Click to Watch")
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR)
