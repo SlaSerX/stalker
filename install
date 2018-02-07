@@ -18,7 +18,7 @@
 echo "Updating and Upgrading"
 apt-get update && sudo apt-get upgrade -y
 
-sudo apt-get install -y dialog wget curl
+sudo apt-get install -y dialog wget curl sendmail
 chmod +x ./lab/*
 (
 c=20
