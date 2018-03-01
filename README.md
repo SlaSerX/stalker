@@ -42,6 +42,7 @@ chmod +x install
 Stalker auto install script v1.2.4 - RELEASE
 
   * Implemented support for Ubuntu 16.04 and PHP 7.
+  * Fix UTF-8 terminal support in Lion
   * Add dialog menu for choice Ministra or Stalker version installing
   * Checking OS Support
   * fix bugs
