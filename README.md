@@ -41,16 +41,15 @@ chmod +x install
 
 Stalker auto install script v1.2.4 - RELEASE
 
-Implemented support for Ubuntu 16.04 and PHP 7.
-Add dialog menu for choice Ministra or Stalker version installing
-Checking OS Support
-fix bugs
-fix deploy
-Last Version Stalker Portal Ministra 5.4.0
-Last Version Stalker Portal 5.2.0
-fix nginx configs
-fix vendor
-
+  * Implemented support for Ubuntu 16.04 and PHP 7.
+  * Add dialog menu for choice Ministra or Stalker version installing
+  * Checking OS Support
+  * fix bugs
+  * fix deploy
+  * Last Version Stalker Portal Ministra 5.4.0
+  * Last Version Stalker Portal 5.2.0
+  * fix nginx configs
+  * fix vendor
 
 Stalker auto install script v1.2.3 - RELEASE
 
