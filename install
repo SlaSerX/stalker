@@ -18,7 +18,11 @@
 echo "Updating and Upgrading"
 apt-get update && sudo apt-get upgrade -y
 
-sudo apt-get install -y dialog wget curl sendmail
+# Setting for the new UTF-8 terminal support in Lion
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+sudo apt-get install -y dialog wget curl nano sudo unzip
 chmod +x ./lab/*
 (
 c=20
@@ -42,7 +46,8 @@ else
  cmd=(dialog --separate-output --checklist "Please Select Software you want to install:" 22 76 16)
  options=(1 "Install Ministra Portal" off # any option can be set to default to "on"
  2 "Install Stalker Portal" off
- 3 "Exit" off)
+ 3 "Install Ministra on Ubuntu 16.04" off
+ 4 "Exit" off)
  choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
  clear
  for choice in $choices
@@ -59,8 +64,14 @@ else
 ./lab/stalker
  ;;
 
- #Exit
 3)
+ #Install Ubuntu 16.04
+ echo "Install Ministra on Ubuntu 16.04"
+./lab/ubuntu16
+ ;;
+
+ #Exit
+4)
 exit
  ;;
 
