@@ -134,9 +134,17 @@ source="http://linuxhelps.net/configs"
 #Install Necessary services & packets
 sudo apt-get install -y -u apache2 nginx wget nano curl nginx-extras unzip memcached php5 php5-mysql php-pear nodejs upstart && sudo pear channel-discover pear.phing.info && sudo pear install -Z phing/phing 
 sleep 1
+
+# Pear
 pear channel-discover pear.phing.info
-pear install phing/phing
+pear install -Z phing/phing
 sleep 1
+
+# Install NPM  2.5.11
+sudo apt-get -y -u install npm
+sudo npm install -g npm@2.15.11
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
 
 # Set the Server Timezone to CST
 echo "Europe/Sofia" > /etc/timezone
