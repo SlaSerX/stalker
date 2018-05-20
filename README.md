@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-GPL--3.0-red.svg)](https://opensource.org/licenses/GPL-3.0)
 [![Type](https://img.shields.io/badge/type-%2Fbin%2Fsh-red.svg)](https://en.wikipedia.org/?title=Bourne_shell)
 [![HitCount](http://hits.dwyl.io/slaserx/stalker.svg)](http://hits.dwyl.io/slaserx/stalker)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR)
 
 [![N|Solid](http://i68.tinypic.com/a1ohky.png)](https://linuxhelps.net)
 
@@ -19,7 +19,7 @@ Copyright (C) 2017 LinuxHelps project.
 Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
 
 ##### Runs on
@@ -77,5 +77,5 @@ Stalker auto install script v1.2 - RELEASE
 
 [![Click to Watch](https://img.youtube.com/vi/Ibybv_k5WGs/0.jpg)](https://www.youtube.com/watch?v=Ibybv_k5WGs "Click to Watch")
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bgpanika@gmail.com&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
