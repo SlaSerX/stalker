@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-GPL--3.0-red.svg)](https://opensource.org/licenses/GPL-3.0)
 [![Type](https://img.shields.io/badge/type-%2Fbin%2Fsh-red.svg)](https://en.wikipedia.org/?title=Bourne_shell)
 [![HitCount](http://hits.dwyl.io/slaserx/stalker.svg)](http://hits.dwyl.io/slaserx/stalker)
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/ombi.svg)](https://hub.docker.com/r/slaserx/stalker-portal/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/slaserx/stalker-portal.svg)](https://hub.docker.com/r/slaserx/stalker-portal/)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR)
 
 [![N|Solid](http://i68.tinypic.com/a1ohky.png)](https://linuxhelps.net)
