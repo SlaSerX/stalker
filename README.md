@@ -38,6 +38,8 @@ chmod +x install
 ./install
 ```
 
+[![Feature Requests](http://feathub.com/SlaSerX/stalker?format=svg)](http://feathub.com/SlaSerX/stalker)
+
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
 Stalker auto install script v1.2.4 - RELEASE
@@ -77,8 +79,6 @@ Stalker auto install script v1.2 - RELEASE
   
 
 [![Click to Watch](https://img.youtube.com/vi/Ibybv_k5WGs/0.jpg)](https://www.youtube.com/watch?v=Ibybv_k5WGs "Click to Watch")
-
-[![Feature Requests](http://feathub.com/SlaSerX/stalker?format=svg)](http://feathub.com/SlaSerX/stalker)
 
 
 [![Throughput Graph](https://graphs.waffle.io/SlaSerX/stalker/throughput.svg)](https://waffle.io/SlaSerX/stalker/metrics/throughput)
