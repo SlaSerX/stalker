@@ -7,7 +7,7 @@
 
 [![N|Solid](http://i68.tinypic.com/a1ohky.png)](https://linuxhelps.net)
 
-[![Tweet] (https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Stalker%20WM%20Portal%20road%20warrior%20installer%20for%20Debian,%20Ubuntu&via=froala&url=https://github.com/SlaSerX/stalker&hashtags=iptv, linux, ubuntu, debian, infomir, stalker, ministra, stalker portal, kodi, libreelec, openelec) 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Stalker%20WM%20Portal%20road%20warrior%20installer%20for%20Debian,%20Ubuntu&url=https://github.com/SlaSerX/stalker&via=Stalker&hashtags=iptv,linux,ubuntu,debian,infomir,stalker,ministra,stalker portal,kodi,libreelec,openelec)
 
 <b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
 
