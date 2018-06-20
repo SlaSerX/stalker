@@ -77,5 +77,8 @@ Stalker auto install script v1.2 - RELEASE
 
 [![Click to Watch](https://img.youtube.com/vi/Ibybv_k5WGs/0.jpg)](https://www.youtube.com/watch?v=Ibybv_k5WGs "Click to Watch")
 
+[![Throughput Graph](https://graphs.waffle.io/SlaSerX/stalker/throughput.svg)](https://waffle.io/SlaSerX/stalker/metrics/throughput)
+
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
