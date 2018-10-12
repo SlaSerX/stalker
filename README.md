@@ -51,7 +51,7 @@ Stalker auto install script v1.2.4 - RELEASE
   * Checking OS Support
   * fix bugs
   * fix deploy
-  * Last Version Stalker Portal Ministra 5.4.1
+  * Last Version Stalker Portal Ministra 5.5.0
   * Last Version Stalker Portal 5.2.0
   * fix nginx configs
   * fix vendor
