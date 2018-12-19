@@ -189,6 +189,8 @@ sleep 1
 sl
 sleep 1
 
+aview ./images/love.pgm
+
 echo ""
 echo -e "${CCYAN}-----------------------------------------------------------------------${CEND}"
 echo ""
