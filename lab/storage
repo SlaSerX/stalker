@@ -58,7 +58,7 @@ smallLoader() {
 
 
 VER="5.5.0"
-PRODUCT="Ministra Portal"
+PRODUCT="Storage Server"
 WEB="http://`ip route get 8.8.8.8 | awk '{print $NF; exit}'`/stalker_portal"
 WAN="`wget -q -O - http://icanhazip.com/ | tail`"
 LOCAL="`ip route get 8.8.8.8 | awk '{print $NF; exit}'`"
@@ -167,6 +167,10 @@ wget http://lab.itbox.bg/software/tv/ministra-5.5.0.zip
 unzip ministra-5.5.0.zip
 rm -rf *.zip
 
+# Images for Fun
+
+curl -O http:// -o /tmp/love.pgm
+
 # Create directories and set permission 0777 to them.
 
 mkdir -p -m 0777 /media/raid0/storage /media/raid0/karaoke /media/raid0/records /media/raid0/mac
@@ -189,15 +193,16 @@ sleep 1
 sl
 sleep 1
 
+aview /tmp/love.pgm
+
 echo ""
 echo -e "${CCYAN}-----------------------------------------------------------------------${CEND}"
 echo ""
-echo -e "${CCYAN}[ Install Storage Server Complete                                     ]${CEND}"
+echo -e "${CCYAN}[ Install Storage Server Complete]${CEND}"
 echo ""
 echo -e "${CEND}"
-echo -e "Edit File     : ${CGREEN}/var/www/stalker_portal/storage/config.php ${CEND}"
+echo -e "${CCYAN}[Edit File:${CEND} ${CGREEN}/var/www/stalker_portal/storage/config.php]${CEND}"
 echo ""
 echo -e "${CCYAN}-----------------------------------------------------------------------${CEND}"
 echo ""
-
 
