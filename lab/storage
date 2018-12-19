@@ -169,7 +169,7 @@ rm -rf *.zip
 
 # Images for Fun
 
-curl -O https://github.com/SlaSerX/stalker/blob/master/images/love.pgm -o /tmp/love.pgm
+curl https://github.com/SlaSerX/stalker/blob/master/images/love.pgm -o /tmp/love.pgm
 
 # Create directories and set permission 0777 to them.
 
