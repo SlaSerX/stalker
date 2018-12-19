@@ -43,6 +43,12 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.2.5 - RELEASE
+  * Add new options for choice - Install Storage Server with Secure Links for VOD
+  * Implemented support for Let`s Encrypt SSL
+  * fix bugs
+
+
 Stalker auto install script v1.2.4 - RELEASE
 
   * Implemented support for Ubuntu 16.04 and PHP 7.
