@@ -14,6 +14,11 @@
 # Author Ivan Bachvarov a.k.a SlaSerX
 
 
+#Let's Encrypt Repository
+
+apt install software-properties-common -y
+yes | add-apt-repository ppa:certbot/certbot
+
 #Update and Upgrade
 echo "Updating and Upgrading"
 apt-get update && sudo apt-get upgrade -y
@@ -22,7 +27,8 @@ apt-get update && sudo apt-get upgrade -y
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-sudo apt-get install -y dialog wget curl nano sudo unzip
+sudo apt-get install -y dialog wget curl nano sudo unzip sl ccze lolcat software-properties-common python-certbot-nginx
+
 chmod +x ./lab/*
 (
 c=20
@@ -47,7 +53,8 @@ else
  options=(1 "Install Ministra Portal" off # any option can be set to default to "on"
  2 "Install Stalker Portal" off
  3 "Install Ministra on Ubuntu 16.04" off
- 4 "Exit" off)
+ 4 "Install of the Storage Server" off
+ 5 "Exit" off)
  choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
  clear
  for choice in $choices
@@ -70,8 +77,14 @@ else
 ./lab/ubuntu16
  ;;
 
- #Exit
 4)
+ # Install of the Storage Server
+ echo "Install of the Storage Server"
+./lab/storage
+ ;;
+
+ #Exit
+5)
 exit
  ;;
 
