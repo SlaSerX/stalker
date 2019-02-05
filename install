@@ -16,8 +16,8 @@
 
 #Let's Encrypt Repository
 
-apt install software-properties-common -y
-yes | add-apt-repository ppa:certbot/certbot
+#apt install software-properties-common -y
+#yes | add-apt-repository ppa:certbot/certbot
 
 #Update and Upgrade
 echo "Updating and Upgrading"
