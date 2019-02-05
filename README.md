@@ -43,6 +43,11 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.2.6 - RELEASE
+  * Add new install script for Debian 8
+  * Support Debian 8
+  * fix bugs
+
 Stalker auto install script v1.2.5 - RELEASE
   * Add new options for choice - Install Storage Server with Secure Links for VOD
   * Implemented support for Let`s Encrypt SSL
