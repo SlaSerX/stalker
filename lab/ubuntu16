@@ -132,7 +132,7 @@ pass="st@lk3r"
 source="http://linuxhelps.net/configs"
 
 # Install Necessary services & packets
-sudo apt-get -y -u install nginx-full memcached php php-mcrypt php-mysql php-pear nodejs libapache2-mod-php
+sudo apt-get -y -u install nginx-full apache2 memcached php php-mcrypt php-mysql php-pear nodejs libapache2-mod-php
 sleep 1
 
 # Apache & Nginx config
