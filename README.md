@@ -4,7 +4,7 @@
 [![HitCount](http://hits.dwyl.io/slaserx/stalker.svg)](http://hits.dwyl.io/slaserx/stalker)
 [![Docker Pulls](https://img.shields.io/docker/pulls/slaserx/stalker-portal.svg)](https://hub.docker.com/r/slaserx/stalker-portal/)
 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](http://github.com/SlaSerX/stalker)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ivan@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR)
 
 [![N|Solid](http://i68.tinypic.com/a1ohky.png)](https://linuxhelps.net)
 
@@ -21,7 +21,7 @@ Copyright (C) 2017 LinuxHelps project.
 Feedback/comment/suggestions : https://linuxhelps.net/
 Author Ivan Bachvarov a.k.a SlaSerX
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ivan@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
 
 ##### Runs on
@@ -96,7 +96,7 @@ Stalker auto install script v1.2 - RELEASE
 [![Throughput Graph](https://graphs.waffle.io/SlaSerX/stalker/throughput.svg)](https://waffle.io/SlaSerX/stalker/metrics/throughput)
 
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=slaserx@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ivan@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
 
 Please Help me with Tweet [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Stalker%20WM%20Portal%20road%20warrior%20installer%20for%20Debian,%20Ubuntu&url=https://github.com/SlaSerX/stalker&via=Stalker&hashtags=iptv,linux,ubuntu,debian,infomir,stalker,ministra,kodi,libreelec,openelec) Thanks! :heart:
