@@ -1,3 +1,20 @@
+Stalker auto install script v1.2.7 - RELEASE
+fix bugs
+add kernel modifications
+add new colors
+
+Stalker auto install script v1.2.6 - RELEASE
+
+Add new install script for Debian 8
+Support Debian 8
+fix bugs
+
+Stalker auto install script v1.2.5 - RELEASE
+
+Add new options for choice - Install Storage Server with Secure Links for VOD
+Implemented support for Let`s Encrypt SSL
+fix bugs
+
 Stalker auto install script v1.2.4 - RELEASE
 
 Implemented support for Ubuntu 16.04 and PHP 7. 
