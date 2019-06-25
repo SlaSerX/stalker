@@ -43,6 +43,12 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.2.7 - RELEASE
+  * fix bugs
+  * add kernel modifications
+  * add new colors
+
+
 Stalker auto install script v1.2.6 - RELEASE
   * Add new install script for Debian 8
   * Support Debian 8
