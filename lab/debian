@@ -129,7 +129,7 @@ fi
 # 
 
 pass="st@lk3r"
-source="http://linuxhelps.net/configs"
+source="http://itbox.bg/configs"
 
 #Install Necessary services & packets
 sudo apt-get install -y -u apache2 nginx wget nano curl nginx-extras unzip memcached php5 php5-mysql php-pear nodejs upstart && sudo pear channel-discover pear.phing.info && sudo pear install -Z phing/phing 
@@ -161,7 +161,7 @@ mysql -uroot -p$pass -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="r
 service mysql restart
 
 cd /var/www/html/
-wget http://lab.itbox.bg/software/tv/ministra-5.5.0.zip
+wget http://p.itbox.bg/tv/ministra-5.5.0.zip
 unzip ministra-5.5.0.zip
 rm -rf *.zip
 
@@ -188,7 +188,7 @@ wget $source/default
 sleep 1
 rm -rf /var/www/html/stalker_portal/admin/vendor
 cd /var/www/html/stalker_portal/admin
-wget http://lab.itbox.bg/software/tv/vendor.tar
+wget http://p.itbox.bg/tv/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
