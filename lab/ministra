@@ -192,6 +192,10 @@ wget http://p.itbox.bg/tv/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
+cd /var/www/html/stalker_portal/server
+wget -O custom.ini https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/custom.ini
+cd
+
 cd /var/www/html/stalker_portal/deploy
 sudo phing
 sleep 1
