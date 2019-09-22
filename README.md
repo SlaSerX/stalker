@@ -43,6 +43,13 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+
+Stalker auto install script v1.2.8 - RELEASE
+  * fix bugs
+  * Update Version Ministra 5.6.0
+  * add Custom.ini config
+
+
 Stalker auto install script v1.2.7 - RELEASE
   * fix bugs
   * add kernel modifications
