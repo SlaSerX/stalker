@@ -207,10 +207,17 @@ wget http://null.itbox.bg/tv/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
+# Ministra Custom config
 cd /var/www/html/stalker_portal/server
 wget -O custom.ini https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/custom.ini
 cd
 
+# Install and configure apache cloudflare module
+wget https://www.cloudflare.com/static/misc/mod_cloudflare/ubuntu/mod_cloudflare-trusty-amd64.latest.deb -O /tmp/mod_cloudflare-trusty-amd64.latest.deb
+dpkg -i /tmp/mod_cloudflare-trusty-amd64.latest.deb
+sed -i -e 's/CloudFlareRemoteIPTrustedProxy/CloudFlareRemoteIPTrustedProxy 172.16.0.0\/12 192.168.0.0\/16 10.0.0.0\/8/' /etc/apache2/mods-enabled/cloudflare.conf
+/etc/init.d/apache2 restart
+sleep 1
 
 # Phing :)
 cd /var/www/html/stalker_portal/deploy
