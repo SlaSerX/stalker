@@ -57,7 +57,7 @@ smallLoader() {
 
 
 
-VER="5.5.0"
+VER="5.6.0"
 PRODUCT="Ministra Portal"
 WEB="http://`ip route get 8.8.8.8 | awk '{print $NF; exit}'`/stalker_portal"
 WAN="`wget -q -O - http://icanhazip.com/ | tail`"
