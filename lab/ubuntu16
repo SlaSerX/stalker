@@ -61,6 +61,7 @@ VER="5.6.0"
 PRODUCT="Ministra Portal"
 WEB="http://`ip route get 8.8.8.8 | awk '{print $NF; exit}'`/stalker_portal"
 WAN="`wget -q -O - http://icanhazip.com/ | tail`"
+PHPMA="http://`ip route get 8.8.8.8 | awk '{print $NF; exit}'`/phpmyadmin"
 LOCAL="`ip route get 8.8.8.8 | awk '{print $NF; exit}'`"
 
 supported="    Debian 8, 9 on i386 and amd64
@@ -219,6 +220,14 @@ sed -i -e 's/CloudFlareRemoteIPTrustedProxy/CloudFlareRemoteIPTrustedProxy 172.1
 /etc/init.d/apache2 restart
 sleep 1
 
+# Install phpmyadmin
+cd /var/www/html/ > /dev/null
+wget https://files.phpmyadmin.net/phpMyAdmin/4.9.1/phpMyAdmin-4.9.1-all-languages.zip > /dev/null
+unzip phpMyAdmin-4.9.1-all-languages.zip > /dev/null
+mv phpMyAdmin-4.9.1-all-languages phpmyadmin > /dev/null
+
+sleep 1
+
 # Phing :)
 cd /var/www/html/stalker_portal/deploy
 sudo phing
@@ -229,6 +238,7 @@ sleep 1
 sl
 sleep 1
 
+
 echo ""
 echo -e "${CCYAN}-----------------------------------------------------------------------${CEND}"
 echo ""
@@ -238,8 +248,11 @@ echo -e "IP WAN       : ${CGREEN}${WAN}${CEND}"
 echo -e "Local IP     : ${CGREEN}${LOCAL}${CEND}"
 echo -e "MySQL Pass   : ${CGREEN}${pass}${CEND}"
 echo -e "WEB          : ${CGREEN}${WEB}${CEND}"
+echo -e "PHPMyadmin   : ${GREEN}${PHPMA}${CEND}"
 echo ""
 echo -e "${CCYAN}-----------------------------------------------------------------------${CEND}"
 echo ""
+
+
 
 
