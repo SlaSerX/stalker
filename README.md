@@ -47,6 +47,7 @@ Stalker auto install script v1.2.8 - RELEASE
   * Update Version Ministra 5.6.0
   * add Custom.ini config
   * Added Apache CloudFlare Module
+  * Added PHPMyadmin   
 
 Stalker auto install script v1.2.7 - RELEASE
   * fix bugs
