@@ -116,8 +116,9 @@ else
  2 "Install Stalker Portal" off
  3 "Install Ministra on Ubuntu 16.04" off
  4 "Install Ministra on Debian 8" off
- 5 "Install of the Storage Server" off
- 6 "Exit" off)
+ 5 "Install Ministra 5.5.0 Ubuntu 16" off
+ 6 "Install of the Storage Server" off
+ 7 "Exit" off)
  choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
  clear
  for choice in $choices
@@ -148,12 +149,18 @@ else
 
 5)
  # Install of the Storage Server
+ echo "Install of the Ministra 5.5.0"
+./lab/ministra5
+ ;;
+
+6)
+ # Install of the Storage Server
  echo "Install of the Storage Server"
 ./lab/storage
  ;;
 
  #Exit
-6)
+7)
 exit
  ;;
 
