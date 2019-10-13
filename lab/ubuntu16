@@ -228,6 +228,10 @@ mv phpMyAdmin-4.9.1-all-languages phpmyadmin > /dev/null
 
 sleep 1
 
+# Fix Smart Launcher Applications
+mkdir /var/www/.npm
+chmod 777 /var/www/.npm
+
 # Phing :)
 cd /var/www/html/stalker_portal/deploy
 sudo phing

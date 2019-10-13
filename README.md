@@ -46,7 +46,7 @@ Stalker auto install script v1.2.9 - RELEASE
   * fix bugs
   * Update Version Ministra 5.6.1
   * Install Ministra 5.5.0
-
+  * Fix Smart Launcher Applications
 
 Stalker auto install script v1.2.8 - RELEASE
   * fix bugs

@@ -192,6 +192,10 @@ wget http://null.itbox.bg/tv/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
+# Fix Smart Launcher Applications
+mkdir /var/www/.npm
+chmod 777 /var/www/.npm
+
 cd /var/www/html/stalker_portal/server
 wget -O custom.ini https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/custom.ini
 cd
