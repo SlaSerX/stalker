@@ -192,6 +192,14 @@ wget http://null.itbox.bg/tv/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
+# Install phpmyadmin
+cd /var/www/html/ > /dev/null
+wget https://files.phpmyadmin.net/phpMyAdmin/4.9.1/phpMyAdmin-4.9.1-all-languages.zip > /dev/null
+unzip phpMyAdmin-4.9.1-all-languages.zip > /dev/null
+mv phpMyAdmin-4.9.1-all-languages phpmyadmin > /dev/null
+
+sleep 1
+
 # Fix Smart Launcher Applications
 mkdir /var/www/.npm
 chmod 777 /var/www/.npm
