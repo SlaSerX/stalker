@@ -142,13 +142,13 @@ apt-get purge libapache2-mod-php5filter > /dev/null
 phpenmod mcrypt
 cd /etc/apache2/sites-enabled/
 rm -rf *
-wget $source/000-default.conf
+wget -O 000-default.conf https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/000-default.conf
 cd /etc/apache2/
 rm -rf ports.conf
-wget $source/ports.conf
+wget -O ports.conf https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/ports.conf
 cd /etc/nginx/sites-available/
 rm -rf default
-wget $source/default
+wget -O default https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/default
 /etc/init.d/apache2 restart
 /etc/init.d/nginx restart
 sleep 1
