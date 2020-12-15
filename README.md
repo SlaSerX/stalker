@@ -41,6 +41,9 @@ chmod +x install
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.3.0 - RELEASE
+  * Patch composer
+  * Fix bugs
 
 Stalker auto install script v1.2.9 - RELEASE
   * fix bugs
