@@ -241,10 +241,10 @@ mkdir /var/www/.npm
 chmod 777 /var/www/.npm
 
 #Patch Composer
-cd /var/www/html/stalker_portal
-wget https://wiki.infomir.eu/wiki/en:article/files/153389291/153389289/1/1603976387000/composer_version_1.9.1.patch
-patch -p0 < composer_version_1.9.1.patch
-sleep 1
+# cd /var/www/html/stalker_portal
+# wget https://wiki.infomir.eu/wiki/en:article/files/153389291/153389289/1/1603976387000/composer_version_1.9.1.patch
+# patch -p0 < composer_version_1.9.1.patch
+# sleep 1
 
 # Phing :)
 cd /var/www/html/stalker_portal/deploy
