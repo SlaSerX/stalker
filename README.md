@@ -5,6 +5,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/slaserx/stalker-portal.svg)](https://hub.docker.com/r/slaserx/stalker-portal/)
 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](http://github.com/SlaSerX/stalker)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR)
+[![Join the chat at https://gitter.im/SlaSerX/stalker](https://badges.gitter.im/SlaSerX/stalker.svg)](https://gitter.im/SlaSerX/stalker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
 
