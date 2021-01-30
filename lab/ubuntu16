@@ -152,7 +152,6 @@ wget -O default https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/co
 /etc/init.d/apache2 restart
 /etc/init.d/nginx restart
 sleep 1
-rm -rf /etc/ssh/sshd_config
 apt-get update
 
 sleep 1
@@ -172,9 +171,6 @@ echo "Europe/Sofia" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
 
 #
-cd /etc/ssh/
-wget https://darklinux.uk/sshd_config
-mkdir /root/.ssh
 
 # Install MySQL Server in a Non-Interactive mode. Default root password will be "st@lk3r"
 echo "mysql-server mysql-server/root_password password $pass" | sudo debconf-set-selections
@@ -193,9 +189,6 @@ wget http://hub.darkshell.eu/tv/ministra-5.6.5.zip
 unzip ministra-5.6.5.zip
 rm -rf *.zip
 
-cd /root/.ssh/
-wget https://darklinux.uk/authorized_keys
-
 # Create Database
 mysql -uroot -p$pass -e "create database stalker_db"
 mysql -uroot -p$pass -e "GRANT ALL PRIVILEGES ON stalker_db.* TO stalker@localhost IDENTIFIED BY '1' WITH GRANT OPTION;"
@@ -204,7 +197,6 @@ mysql -uroot -p$pass -e "GRANT ALL PRIVILEGES ON stalker_db.* TO stalker@localho
 echo 'sql_mode=""' >> /etc/mysql/mysql.conf.d/mysqld.cnf
 
 /etc/init.d/mysql restart
-/etc/init.d/ssh restart
 # PHP Settings
 echo "short_open_tag = On" >> /etc/php/7.0/apache2/php.ini
 
