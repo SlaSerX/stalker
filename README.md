@@ -7,10 +7,6 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR)
 [![Join the chat at https://gitter.im/SlaSerX/stalker](https://badges.gitter.im/SlaSerX/stalker.svg)](https://gitter.im/SlaSerX/stalker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
 <h3 style="color:#FF0000">Auto install script it will no longer be available for free due to many abuses. Anyone who wants to use it can pay a minimum fee of 0.99€</h3>
 
 Buy IT:
