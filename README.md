@@ -8,7 +8,7 @@
 [![Join the chat at https://gitter.im/SlaSerX/stalker](https://badges.gitter.im/SlaSerX/stalker.svg)](https://gitter.im/SlaSerX/stalker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-<h3 style="color:#FF0000">Auto install script it will no longer be available for free due to many abuses. Anyone who wants to use it can pay a minimum fee of 0.99</h3>
+<h3 style="color:#FF0000">Auto install script it will no longer be available for free due to many abuses. Anyone who wants to use it can pay a minimum fee of 0.99€</h3>
 
 Buy IT:
 https://slaserx.dev/shop/index.php?rp=/store/software
