@@ -28,15 +28,7 @@ Thanks! :heart:
 [![Ubuntu](https://raw.githubusercontent.com/slaserx/icons/master/64x64/ubuntu.png)](https://www.ubuntu.com)
 
 
-```sh
-git clone https://github.com/SlaSerX/stalker
 
-cd stalker/
-
-chmod +x install
-
-./install
-```
 
 #### [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SlaSerX/stalker)
 
