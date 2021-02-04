@@ -7,8 +7,10 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR)
 [![Join the chat at https://gitter.im/SlaSerX/stalker](https://badges.gitter.im/SlaSerX/stalker.svg)](https://gitter.im/SlaSerX/stalker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<h3>  Now have litle problem with script installation soon will be avelible</h3>
+<h3 style="color:#FF0000">Auto install script it will no longer be available for free due to many abuses. Anyone who wants to use it can pay a minimum fee of 0.99€</h3>
 
+<b>Buy IT:</b>
+https://slaserx.dev/shop/index.php?rp=/store/software
 
 
 <b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
@@ -37,6 +39,11 @@ Thanks! :heart:
 #### [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SlaSerX/stalker)
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
+
+Stalker auto install script v1.3.1 - RELEASE
+  * fix problem with phing
+  * Patch composer
+  * Fix bugs
 
 Stalker auto install script v1.3.0 - RELEASE
   * Update Version Ministra 5.6.5 
