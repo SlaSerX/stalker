@@ -23,7 +23,7 @@ universal as possible.
 
 This is a free shell script under GNU GPL version 3.0 or above
 Copyright (C) 2017 LinuxHelps project.
-Feedback/comment/suggestions : https://linuxhelps.net/
+Feedback/comment/suggestions : https://slaserx.dev
 Author Ivan Bachvarov a.k.a SlaSerX
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
