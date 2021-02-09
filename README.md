@@ -12,7 +12,6 @@
 <b>Buy IT:</b>
 https://slaserx.dev/shop/index.php?rp=/store/software
 
-Support [![Chat on Telegram][ico-telegram]][http://t.me/slaserx]
 
 <b>Stalker WM Portal road warrior installer for Debian, Ubuntu</b>
 
