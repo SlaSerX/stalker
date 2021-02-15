@@ -40,6 +40,16 @@ Thanks! :heart:
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.3.3 - RELEASE
+  * Added new mag devices support
+  * Fix bugs from Ubuntu 20.04
+  * Links for download changed
+  * Implemented support for Ubuntu 20.04
+  * fix problem with phing
+  * Patch composer
+  * Fix bugs
+  * Update links
+
 Stalker auto install script v1.3.2 - RELEASE
   * Implemented support for Ubuntu 20.04
   * fix problem with phing
