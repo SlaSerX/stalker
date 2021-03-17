@@ -1,0 +1,8 @@
+[ministra]
+
+enabled = true
+filter = ministra
+port = 80,88
+logpath = /var/log/apache2/access.log
+maxretry = 3
+bantime = 86400
