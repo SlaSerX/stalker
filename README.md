@@ -45,7 +45,7 @@ Stalker auto install script v1.3.5 - RELEASE
   * Protect Channel from unautorized access
   * Fix bugs from Ubuntu 20 <b>(Beta)</b>
   * Update GeoIP DB
-  * add fail2ban Protection (Ubuntu 16)
+  * add fail2ban Protection <b>(Ubuntu 16)</b>
   * High Ram usage Fix
 
 Stalker auto install script v1.3.4 - RELEASE
