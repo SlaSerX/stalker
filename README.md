@@ -43,25 +43,25 @@ Thanks! :heart:
 Stalker auto install script v1.3.5 - RELEASE
 
   * Protect Channel from unautorized access
-  * Fix bugs from Ubuntu 20
+  * Fix bugs from Ubuntu 20 <b>(Beta)</b>
   * Update GeoIP DB
-  * add fail2ban Protection 
+  * add fail2ban Protection (Ubuntu 16)
   * High Ram usage Fix
 
 Stalker auto install script v1.3.4 - RELEASE
 
  * Update version Ministra 5.6.6
  * Added new mag devices support
- * Fix bugs from Ubuntu 20.04
+ * Fix bugs from Ubuntu 20.04<b>(Beta)</b>
  * Added support STB of models MAG500A, MAG520, MAG524
  * Fixed disable channel filter by config option
 
 
 Stalker auto install script v1.3.3 - RELEASE
   * Added new mag devices support
-  * Fix bugs from Ubuntu 20.04
+  * Fix bugs from Ubuntu 20.04<b>(Beta)</b>
   * Links for download changed
-  * Implemented support for Ubuntu 20.04
+  * Implemented support for Ubuntu 20.04<b>(Beta)</b>
   * fix problem with phing
   * Patch composer
   * Fix bugs
