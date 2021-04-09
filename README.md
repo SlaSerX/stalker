@@ -40,6 +40,14 @@ Thanks! :heart:
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.3.6 - RELEASE
+  
+  * Added support SFVIP player
+  * Fix Problem GeoIP DB ( Thanks to Michael Kaprielian )
+  * Fix bugs from Ubuntu 20
+  * add fail2ban Protection
+  * High Ram usage Fix
+  * 
 Stalker auto install script v1.3.5 - RELEASE
 
   * Protect Channel from unautorized access
