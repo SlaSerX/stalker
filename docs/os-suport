@@ -3,6 +3,7 @@
     Debian 7, 8, 9 on i386 and amd64
     Ubuntu 14.04 LTS 
     Ubuntu 16.04
+    Ubuntu 18.04
     Ubuntu 20.04
 
   If your OS/version/arch is not listed, installation will fail. More
