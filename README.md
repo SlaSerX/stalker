@@ -4,7 +4,7 @@
 [![HitCount](http://hits.dwyl.io/slaserx/stalker.svg)](http://hits.dwyl.io/slaserx/stalker)
 [![Pulls](https://img.shields.io/docker/pulls/slaserx/stalker-portal.svg)](https://hub.docker.com/r/slaserx/stalker-portal/)
 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](http://github.com/SlaSerX/stalker)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=p@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR)
 [![Join the chat at https://gitter.im/SlaSerX/stalker](https://badges.gitter.im/SlaSerX/stalker.svg)](https://gitter.im/SlaSerX/stalker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <h3 style="color:#FF0000">Auto install script it will no longer be available for free due to many abuses. Anyone who wants to use it can buy it from my site</h3>
@@ -26,7 +26,7 @@ Copyright (C) 2017 LinuxHelps project.
 Feedback/comment/suggestions : https://slaserx.dev
 Author Ivan Bachvarov a.k.a SlaSerX
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=p@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
 
 ##### Runs on
@@ -190,7 +190,7 @@ Stalker auto install script v1.2 - RELEASE
 <a href="https://www.buymeacoffee.com/slaserx" target="_blank"><img src="https://res.cloudinary.com/panr/image/upload/v1579374705/buymeacoffee_y6yvov.svg" alt="Buy Me A Coffee" ></a>
 
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=root@darkshell.eu&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=p@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
 Thanks! :heart:
 
 Please Help me with Tweet [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Stalker%20WM%20Portal%20road%20warrior%20installer%20for%20Debian,%20Ubuntu&url=https://github.com/SlaSerX/stalker&via=Stalker&hashtags=iptv,linux,ubuntu,debian,infomir,stalker,ministra,kodi,libreelec,openelec) Thanks! :heart:
