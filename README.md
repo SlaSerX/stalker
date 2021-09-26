@@ -40,6 +40,17 @@ Thanks! :heart:
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.3.9 - RELEASE
+
+Update to last version of Ministra 5.6.8
+Implemented support for Ubuntu 18.04
+Implemented support for Ubuntu 20.04
+Fix GeoIP DB
+fix problem with phing
+Patch composer
+Fix bugs
+Update links
+High Ram usage Fix
 
 Stalker auto install script v1.3.8 - RELEASE
   * Update to last version of Ministra 5.6.7
