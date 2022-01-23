@@ -26,9 +26,6 @@ Copyright (C) 2017 LinuxHelps project.
 Feedback/comment/suggestions : https://slaserx.dev
 Author Ivan Bachvarov a.k.a SlaSerX
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=p@itbox.bg&item_name=LinuxHelps%20Support&currency_code=EUR) - You can make one-time donations via PayPal. I'll probably buy a coffe. :coffee:
-Thanks! :heart:
-
 ##### Runs on
 [![Debian](https://raw.githubusercontent.com/slaserx/icons/master/64x64/debian.png)](https://www.debian.org)
 [![Ubuntu](https://raw.githubusercontent.com/slaserx/icons/master/64x64/ubuntu.png)](https://www.ubuntu.com)
@@ -39,6 +36,19 @@ Thanks! :heart:
 #### [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SlaSerX/stalker)
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
+
+Stalker auto install script v1.4.0 - RELEASE
+
+  * Update to last version of Ministra 5.6.9
+  * Added Auto Upgrade Options from 5.6.x to 5.6.9
+  * Implemented support for Ubuntu 18.04
+  * Implemented support for Ubuntu 20.04
+  * Fix GeoIP DB
+  * fix problem with phing
+  * Patch composer
+  * Fix bugs
+  * Update links
+  * High Ram usage Fix
 
 Stalker auto install script v1.3.9 - RELEASE
   * Update to last version of Ministra 5.6.8
