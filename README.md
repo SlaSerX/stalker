@@ -37,6 +37,18 @@ Author Ivan Bachvarov a.k.a SlaSerX
 
 <b>Script work only on Clean Debian/Ubuntu install servers</b>
 
+Stalker auto install script v1.4.1 - RELEASE
+
+  * Update to last version of Ministra 5.6.10
+  * Added Upgrade Options from 5.6.x to 5.6.10
+  * Implemented support for Ubuntu 22.04
+  * Implemented support for Ubuntu 22.10
+  * Fix GeoIP DB
+  * Patch composer
+  * Fix bugs
+  * Update links
+  * High Ram usage Fix
+
 Stalker auto install script v1.4.0 - RELEASE
 
   * Update to last version of Ministra 5.6.9
